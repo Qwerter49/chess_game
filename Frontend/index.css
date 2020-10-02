@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#chat {
+    border: solid black 1px; 
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+
+}
+
+form {
+}
+
+/* #profile-container {
+    display: inline;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+} */
+
+/* #game-container {
+    height: auto;
+    width: auto;
+} */
+/* 
+#game-container, h1 {
+    width: 100%;
+} */

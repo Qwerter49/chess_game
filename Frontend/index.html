@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+    <link rel="stylesheet" href="./styles/page.css"/>
+    <script type="module" src="index.js" defer></script>
+    <link rel="stylesheet" href="./styles/cm-chessboard.css"/>
+    <link rel="stylesheet" href="index.css"></link>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <title>Chess Game</title>
+</head>
+<body>
+    <div id="login-container" style="display: flex;">
+        <h1>Chess Login!</h1>
+        <form id="auth-form">
+            <h2 id="form-title">Sign Up</h2>
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Enter Username">
+            <label>Password:</label>
+            <input type="text" name="password" placeholder="Enter Password">
+            <input type="submit" value="Create User">
+        </form>
+        <div id="login">
+            <p>Already have an account?</p>
+            <button id="login-button">Login</button>
+        </div>
+    </div>
+    <div id="profile-container" style="display: none;">
+        <div id="username-container"></div>
+        <button id="logout-button" style="height: 50%;">Logout</button>
+        <br>
+        <section id="rooms-container">
+            <button id="room-one-button" style="display: flex;">Room 1</button>
+        </section>
+    </div>
+    <div id="game-container" style="display: none;">
+        <!-- <h1>Room One!</h1> -->
+        <div class="board" id="board"></div>
+    </div>
+</body>
+</html>
